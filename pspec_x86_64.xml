@@ -1,0 +1,40 @@
+<PISI>
+    <Source>
+        <Name>python-pathlib2</Name>
+        <Packager>
+            <Name>Ewan Paterson</Name>
+            <Email>ewan.paterson@hotmail.co.uk</Email>
+        </Packager>
+        <License>MIT</License>
+        <PartOf>programming.python</PartOf>
+        <Summary xml:lang="en">Fork of pathlib aiming to support the full stdlib Python API.</Summary>
+        <Description xml:lang="en">Fork of pathlib aiming to support the full stdlib Python API.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>python-pathlib2</Name>
+        <Summary xml:lang="en">Fork of pathlib aiming to support the full stdlib Python API.</Summary>
+        <Description xml:lang="en">Fork of pathlib aiming to support the full stdlib Python API.
+</Description>
+        <PartOf>programming.python</PartOf>
+        <Files>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pathlib2-2.3.0-py2.7.egg-info/PKG-INFO</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pathlib2-2.3.0-py2.7.egg-info/SOURCES.txt</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pathlib2-2.3.0-py2.7.egg-info/dependency_links.txt</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pathlib2-2.3.0-py2.7.egg-info/requires.txt</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pathlib2-2.3.0-py2.7.egg-info/top_level.txt</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pathlib2.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/pathlib2.pyc</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2017-08-02</Date>
+            <Version>2.3.0</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Ewan Paterson</Name>
+            <Email>ewan.paterson@hotmail.co.uk</Email>
+        </Update>
+    </History>
+</PISI>
