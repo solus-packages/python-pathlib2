@@ -1,8 +1,8 @@
 name       : python-pathlib2
-version    : 2.3.5
-release    : 2
+version    : 2.3.6
+release    : 3
 source     :
-    - https://github.com/mcmtroffaes/pathlib2/archive/2.3.5.tar.gz : 4b57e7ec31a993d259e63bc1af505f7508cea1ad0c9b226fc2e5d1b06e06b016
+    - https://github.com/mcmtroffaes/pathlib2/archive/refs/tags/2.3.6.tar.gz : e2eacafc574540716a22636b301799d81f87a107bba81757fd99c32777dffafd
 license    : MIT
 component  : programming.python
 summary    : Fork of pathlib aiming to support the full stdlib Python API.
